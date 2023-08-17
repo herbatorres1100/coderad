@@ -1,0 +1,10 @@
+:root {
+  --font-color-base: green  ;
+  
+
+}
+
+h1 {
+  color: var(--font-color-base);
+}
+
