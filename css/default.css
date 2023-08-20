@@ -13,3 +13,7 @@
   --grad-1: #a1ecff;
   --grad-2: #7dbcff;
 }
+
+h2 {
+  color: var(--footer-base);
+}
