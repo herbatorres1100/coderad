@@ -31,8 +31,18 @@
     color: var(--white);
 }
 
+.nav-link a {
+  color: var(--white);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+  margin-right: 2.5rem;
+  line-height: 1.25rem;
+}
+
 .bg-header {
-  background-image: url(/assets/images/bg-header-1.jpg);
+  background-image: url("/assets/images/bg-header-1.jpg");
   background-color: var(--footer);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,12 +70,6 @@
 
 }
 
-.nav-link a {
-  color: var(--white);
-  font-size: 0.8125rem;
-  font-weight: 600;
-  font-family: "Hind", sans-serif;
-  text-transform: uppercase;
-  margin-right: 2.5rem;
-  line-height: 1.25rem;
+.hero-header {
+color: var(--white);
 }
