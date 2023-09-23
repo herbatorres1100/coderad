@@ -41,7 +41,8 @@
   line-height: 1.25rem;
 }
 
-.bg-header, .video-demo {
+.bg-header,
+.video-demo {
   background-image: url("/assets/images/bg-header-1.jpg");
   background-color: var(--footer);
   background-repeat: no-repeat;
@@ -170,3 +171,28 @@ span.bg-color-6 {
 .video-demo .block-text p {
   color: var(--white);
 }
+
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 20px rgba(57, 166, 251, 0.3);
+}
+
+.video-btn img {
+width: var(--size-100);
+height: var(--size-100);
+}
+
+.video-box {
+  position: relative;
+  margin-bottom: -9.375rem;
+  z-index: 100;
+}
+
+.video-box > img {
+  max-width: 600px;
+  border-radius: 8px;
+}
+
