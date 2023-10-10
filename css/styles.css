@@ -202,4 +202,7 @@ height: var(--size-100);
   padding-right: 0;
 }
 
-
+.price-card {
+  background-color: var(--white);
+  border-radius: 8px;
+}
