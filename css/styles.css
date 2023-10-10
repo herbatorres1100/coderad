@@ -205,4 +205,35 @@ height: var(--size-100);
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
+  padding: 16px;
+}
+
+.price-card h3 {
+  margin-top: var(--size-40);
+  font-size: 40px;
+  color: var(--font-color-dark);
+  font-weight: 600;
+}
+
+.price {
+  color: var(--font-color-link);
+  font-size: var(size-30)
+  font-weight: 600;
+}
+
+.price-card h3,
+.price-card .price,
+.price-card .billed {text-align: center;} 
+
+
+.price-card li {
+  margin-bottom: var(--size-10);
+}
+
+.price-card .icon {
+  float: right;
+}
+
+.price-card hr {
+  margin: 2rem 0 1rem;
 }
