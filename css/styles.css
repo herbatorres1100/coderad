@@ -208,11 +208,21 @@ height: var(--size-100);
   padding: 16px;
 }
 
+.price-card.featured {
+
+box-shadow: 0 10px 20px rgba(82,179, 255, 0.5)
+
+}
+
 .price-card h3 {
   margin-top: var(--size-40);
   font-size: 40px;
   color: var(--font-color-dark);
   font-weight: 600;
+}
+
+.price-card hr {
+  margin: 2rem 0 1rem;
 }
 
 .price {
@@ -234,6 +244,3 @@ height: var(--size-100);
   float: right;
 }
 
-.price-card hr {
-  margin: 2rem 0 1rem;
-}
