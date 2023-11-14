@@ -284,6 +284,12 @@ margin-top: -1rem;
     grid-column: 1 /2;
 }
 
+.testimonial-card .quote {
+  width: 4.375rem;
+  float: right;
+  margin-top: var(--size-16)
+}
+
 .testimonial-card.md .bottom p {font-size: var(--size-14);}
 
 .testimonial-card .top {
@@ -309,4 +315,11 @@ margin-top: -1rem;
   margin: 0;
   font-size: var(--size-16);
   line-height: 1.6;
+}
+
+footer .footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--size-50);
+  padding: var(--size-100) 0
 }
