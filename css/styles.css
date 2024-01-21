@@ -304,6 +304,8 @@ margin-top: -1rem;
   float: right;
 }
 
+.testimonial-card.lg img.profile {width: 5rem;}
+
 .top h4 {
   margin-top: 0;
   margin-bottom: var(--size-10);
@@ -317,6 +319,17 @@ margin-top: -1rem;
   line-height: 1.6;
 }
 
+.fa, .fas {
+  font-weight: 900;
+}
+
+.fa, .far, .fas{
+  font-family: "Font Awesome 5 Free";
+}
+
+footer.bg-footer {background-color: var(--footer);}
+footer .footer-bottom {background-color: var(--footer-base);}
+
 footer {
  background-color: var(--footer-base);
 }
@@ -325,7 +338,7 @@ footer .footer-top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--size-50);
-  padding: var(--size-100) 0
+  padding: var(--size-100) 0;
 }
 
 footer .footer-col {justify-self: center;}
@@ -337,11 +350,22 @@ footer .footer-col {justify-self: center;}
   margin-bottom: var(--16);
 
 }
-
 .contact-info li {
   color: var(--white);
   margin-bottom: var(--size-10);
 }
 
-.contact-info li i {padding-right: var(--size-10);}
+.contact-info li i {width: var(--size-30);}
+
+.social-icons ul li {
+  display: inline-block;
+  margin-right:  var(--size-16);
+}
+
+.social-icons ul li a{
+  color: var(--white);
+  margin-right:  var(--size-16);
+}
+
+
 
